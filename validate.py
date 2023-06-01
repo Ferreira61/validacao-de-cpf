@@ -31,7 +31,7 @@ def validar_cpf(cpf):
     cpf_gerado = f'{nove_digitos}{digito_1}{digito_2}'
 
     if cpf_numerico == cpf_gerado:
-        print(f'{cpf_numerico} é válido')
+        print(f'O CPF »{cpf_numerico}« é válido')
     else:
         print('CPF inválido')
 
